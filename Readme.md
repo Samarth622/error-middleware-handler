@@ -14,8 +14,8 @@ $ npm install error-middleware-handler
 First, import the necessary middleware:
 
 ```bash
-import { catchAsyncError } from "error-middleware-handler";
-import ErrorHandler from "error-middleware-handler";
+import { catchAsyncError } from "../middlewares/catchAsyncError.js";
+import ErrorHandler from "../middlewares/error.js";
 ```
 Then, use it in your code:
 ```bash
