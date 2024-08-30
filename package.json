@@ -1,11 +1,23 @@
 {
-  "name": "error-middleware-handler",
+  "name": "async-error-handler-middleware",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Npm Package to detect async errors",
+  "main": "error-middleware-handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samarth gupta",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samarth622/error-middleware-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Samarth622/error-middleware-handler/issues"
+  },
+  "homepage": "https://github.com/Samarth622/error-middleware-handler#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
 }
